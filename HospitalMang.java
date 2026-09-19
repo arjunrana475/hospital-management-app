@@ -117,10 +117,10 @@ public class HospitalMang {
 
         sc.nextLine();
 
-        System.out.println("Enter date of Appointment(XX/XX/XXXX)");
+        System.out.println("Enter date of Appointment(XX/XX/XXXX) : ");
         String date=sc.nextLine();
 
-        System.out.print("Enter Time (HH:MM): ");
+        System.out.print("Enter Time (HH:MM) : ");
         String time = sc.nextLine();
 
         Patient selected_patient=null;
