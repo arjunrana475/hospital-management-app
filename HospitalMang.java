@@ -55,12 +55,12 @@ public class HospitalMang {
     private static void addPatient(Scanner sc){
 
         sc.nextLine();
-        System.out.println("Enter Patient Name : ");
+        System.out.println("Enter Patient's Name : ");
         String name = sc.nextLine();
-        System.out.println("Enter Patient Age : ");
+        System.out.println("Enter Patient's Age : ");
         int  age = sc.nextInt();
         sc.nextLine();
-        System.out.println("Enter Patient Gender : ");
+        System.out.println("Enter Patient's Gender : ");
         String gender = sc.nextLine();
         Patient patient = new Patient(name, gender, age);
         patients.add(patient);
@@ -72,9 +72,9 @@ public class HospitalMang {
     private static void addDoctor(Scanner sc){
 
         sc.nextLine();
-        System.out.println("Enter Doctor Name : ");
+        System.out.println("Enter Doctor's Name : ");
         String name = sc.nextLine();
-        System.out.println("Enter Doctor Speciality : ");
+        System.out.println("Enter Doctor's Speciality : ");
         String speciality = sc.nextLine();
 
         Doctor doctor = new Doctor(name,speciality);
