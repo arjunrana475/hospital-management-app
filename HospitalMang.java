@@ -18,10 +18,10 @@ public class HospitalMang {
         System.out.println("Hospital Management System");
         System.out.println("1. Add Patient : ");
         System.out.println("2. Add Doctor : ");
-        System.out.println("3. Schedule Appointment");
-        System.out.println("4. View Patient");
-        System.out.println("5. View Appointment");
-        System.out.println("0. Exit");
+        System.out.println("3. Schedule Appointment :");
+        System.out.println("4. View Patient :");
+        System.out.println("5. View Appointment :");
+        System.out.println("0. Exit :");
 
         System.out.println("Enter Your choice ");
         choice =sc.nextInt();
