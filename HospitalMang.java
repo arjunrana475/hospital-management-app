@@ -16,8 +16,8 @@ public class HospitalMang {
         do{
 
         System.out.println("Hospital Management System");
-        System.out.println("1. Add Patient");
-        System.out.println("2. Add Doctor");
+        System.out.println("1. Add Patient : ");
+        System.out.println("2. Add Doctor : ");
         System.out.println("3. Schedule Appointment");
         System.out.println("4. View Patient");
         System.out.println("5. View Appointment");
